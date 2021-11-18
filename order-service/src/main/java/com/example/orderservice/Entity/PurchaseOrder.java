@@ -2,9 +2,7 @@ package com.example.orderservice.Entity;
 
 import com.example.demo.event.OrderStatus;
 import com.example.demo.event.PaymentStatus;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
@@ -12,7 +10,7 @@ import javax.persistence.*;
 @Table(name = "PURCHASE_ORDER_TBL")
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
+@Getter@Setter
 public class PurchaseOrder {
     @Id
     @GeneratedValue

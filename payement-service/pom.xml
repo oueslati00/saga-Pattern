@@ -13,7 +13,11 @@
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.saga.text</groupId>
+            <artifactId>CommonDTO</artifactId>
+            <version>0.0.1</version>
+        </dependency>
 
     </dependencies>
 
